@@ -75,3 +75,8 @@ variable "enable_apis" {
   description = "Enable required APIs for Cloud Memorystore."
   default     = "true"
 }
+
+variable "redis_configs" {
+  description = "Redis configuration parameters"
+  default = {}
+}

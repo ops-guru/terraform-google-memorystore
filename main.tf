@@ -29,6 +29,7 @@ resource "google_redis_instance" "default" {
   redis_version     = "${var.redis_version}"
   display_name      = "${var.display_name}"
   reserved_ip_range = "${var.reserved_ip_range}"
+  redis_configs     = "${var.redis_configs}"
 
   labels = "${var.labels}"
 
